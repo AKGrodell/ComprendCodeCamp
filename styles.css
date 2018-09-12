@@ -100,6 +100,42 @@ h2:Hover{
 .album1{
   border: 2px;
 }
+.textContainer{
+  background-color: black;
+  padding:50px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 25%;
+}
+@media (max-width: 768px){
+  .textContainer {
+    width: 100%;
+  }
+}
+
+.aboutHeadline{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-family: 'Martel', serif;
+  font-weight: 800;
+  line-height: 3rem;
+}
+
+.aboutText{
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  font-family: 'Martel', serif;
+  font-weight: 600;
+}
+.aboutQuote{
+  font-family: 'Martel', serif;
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
 /*header h1{
     background-color: black;
     width: 50%;
